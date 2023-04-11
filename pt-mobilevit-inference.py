@@ -12,11 +12,11 @@ ram_after_import_dependencies = psutil.virtual_memory()[3]/1e9
 print("RAM used after import dependencies (GB) - total: {:.2f}, increased {:.2f}".format(ram_after_import_dependencies, ram_after_import_dependencies - base_ram))
 
 CWD = os.getcwd()
-PRETRAINED_MODEL_DIR = os.path.join(CWD, 'pretrained/edges/pt')
-PTH = os.path.join(PRETRAINED_MODEL_DIR, 'mbViTs_epoch_3_acc0.8800816616367833_f1-0.876.pth')
+PRETRAINED_MODEL_DIR = os.path.join(CWD, 'edges/pt')
+PTH = os.path.join(PRETRAINED_MODEL_DIR, 'mbViT_xx_small_epoch_4_acc0.9004083081839163_f1-0.8959.pth')
 
 # load model
-model = CustomMobileViT(pretrained_ckp="apple/mobilevit-x-small", input_size=224)
+model = CustomMobileViT(pretrained_ckp="apple/mobilevit-xx-small", input_size=224)
 model.load_state_dict(torch.load(PTH)['model_state_dict'])
 print('number of parameters: {:.2f} million'.format(count_parameters(model)))
 

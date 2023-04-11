@@ -12,11 +12,11 @@ ram_after_import_dependencies = psutil.virtual_memory()[3]/1e9
 print("RAM used after import dependencies (GB) - total: {:.2f}, increased {:.2f}".format(ram_after_import_dependencies, ram_after_import_dependencies - base_ram))
 
 CWD = os.getcwd()
-PRETRAINED_MODEL_DIR = os.path.join(CWD, 'pretrained/edges/pt')
-PTH = os.path.join(PRETRAINED_MODEL_DIR, 'edgenext_epoch_3_acc0.9169181608379194_f1-0.9128.pth')
+PRETRAINED_MODEL_DIR = os.path.join(CWD, 'edges/pt')
+PTH = os.path.join(PRETRAINED_MODEL_DIR, 'edgenext_xx_epoch_4_acc0.894771879992899_f1-0.89.pth')
 
 # load model
-model = create_edgeNext_x_small()
+model = create_edgeNext_xx_small(pretrained_ckp=None)
 model.load_state_dict(torch.load(PTH)['model_state_dict'])
 print('number of parameters: {:.2f} million'.format(count_parameters(model)))
 

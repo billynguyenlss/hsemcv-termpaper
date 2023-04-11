@@ -18,5 +18,5 @@ for i, onnx_model_name in enumerate(tqdm(onnx_models)):
     onnx_model_path = os.path.join(ROOT, onnx_model_name)
     onnx_model = onnx.load(onnx_model_path)
     model_simpified, check = simplify(onnx_model)
-    output_filename = onnx_model_name.replace('.onnx', '_simpified.onnx')
+    output_filename = onnx_model_name.replace('.onnx', '_simplified.onnx')
     onnx.save(model_simpified, os.path.join(OUTPUT_DIR, output_filename))

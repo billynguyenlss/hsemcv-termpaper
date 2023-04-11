@@ -13,7 +13,7 @@ print("RAM used after import dependencies (GB) - total: {:.2f}, increased {:.2f}
 
 CWD = os.getcwd()
 PRETRAINED_MODEL_DIR = os.path.join(CWD, 'pretrained/edges/pt')
-PTH = os.path.join(PRETRAINED_MODEL_DIR, 'mobilenetv3s_epoch_4_acc0.9102609621871116_f1-0.9061.pth')
+PTH = os.path.join(PRETRAINED_MODEL_DIR, 'mobilenetv3L_epoch_4_acc0.9102609621871116_f1-0.9061.pth')
 
 # load model
 model = create_mobilenetv3_model(False)
