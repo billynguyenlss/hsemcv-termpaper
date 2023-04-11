@@ -29,3 +29,13 @@ def create_mobilenetv3_model(isSmall=True):
     )
     return pretrained_model
 
+def create_mobilenetv2_model(pretrained=True):
+    pretrained_model = tv_models.mobilenet_v2(pretrained)
+    for param in pretrained_model.parameters():
+        param.requires_grad=False
+    
+    pretrained_model.classifier=torch.nn.Sequential(
+        torch.nn.Linear(in_features=1280,out_features=256),
+        torch.nn.Linear(in_features=256,out_features=2)
+    )
+    return pretrained_model

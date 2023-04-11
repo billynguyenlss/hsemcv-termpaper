@@ -6,8 +6,8 @@ from tqdm.auto import tqdm
 # ROOT = 'pretrained/onnx/'
 # OUTPUT_DIR = 'pretrained/onnx-simplified'
 
-ROOT = 'pretrained/edges/onnx/'
-OUTPUT_DIR = 'pretrained/edges/onnx-simplified'
+ROOT = 'edges/onnx/'
+OUTPUT_DIR = 'edges/onnx-simplified'
 
 if not os.path.exists(OUTPUT_DIR):
     os.mkdir(OUTPUT_DIR)
