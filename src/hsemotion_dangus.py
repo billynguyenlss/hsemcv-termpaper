@@ -1,11 +1,6 @@
 import torch
 import torch.nn as nn
 import torch.nn.functional as F
-import torch.nn.init as init
-import numpy as np
-import torchvision.models as tv_models
-from tqdm import tqdm
-from sklearn.metrics import f1_score, accuracy_score
 import timm
 from .dan import *
 from .gus import *

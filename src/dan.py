@@ -2,10 +2,7 @@ import torch
 import torch.nn as nn
 import torch.nn.functional as F
 import torch.nn.init as init
-import numpy as np
 import torchvision.models as tv_models
-from tqdm import tqdm
-from sklearn.metrics import f1_score, accuracy_score
 
 
 class DAN2(nn.Module):
@@ -182,34 +179,3 @@ class PartitionLoss(nn.Module):
             loss = 0
             
         return loss
-
-
-def inference_batch_DAN(model, dataloader, dtype=torch.float32, device='cuda'):
-
-    with torch.no_grad():
-        model.eval()
-        val_epoch_labels = []
-        val_epoch_preds = []
-
-
-        for imgs, targets in tqdm(dataloader):
-            imgs = imgs.to(dtype).to(device)
-            targets = targets.to(dtype).to(device)
-
-            out,feat,heads = model(imgs)
-            _, predicts = torch.max(out, 1)
-
-            val_epoch_preds.append(predicts.detach().cpu().numpy())
-            val_epoch_labels.append(targets.detach().cpu().numpy())
-            
-        val_epoch_f1 = f1_score(np.concatenate(val_epoch_labels), 
-                                np.concatenate(val_epoch_preds), 
-                                average='macro')
-        val_epoch_f1_by_class = f1_score(np.concatenate(val_epoch_labels), 
-                                         np.concatenate(val_epoch_preds), 
-                                         average=None)
-
-        acc = accuracy_score(np.concatenate(val_epoch_labels), 
-                                np.concatenate(val_epoch_preds))
-
-        return acc, val_epoch_f1, val_epoch_f1_by_class

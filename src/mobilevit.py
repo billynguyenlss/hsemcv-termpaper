@@ -1,15 +1,6 @@
 import torch
-from torch import nn, optim
-
-import torchvision
-from torchvision.models.mobilenetv3 import MobileNetV3
-import torchvision.models as tv_models
-from torchvision.datasets import ImageFolder
-from torch.utils.data import Dataset, DataLoader
-from torchvision import transforms
-
-from transformers import AutoImageProcessor, MobileViTModel, MobileViTConfig, MobileViTFeatureExtractor
-from transformers import get_scheduler
+from torch import nn
+from transformers import MobileViTModel
 
 class CustomMobileViT(nn.Module):
     def __init__(self, pretrained_ckp='apple/mobilevit-xx-small', input_size=224):
