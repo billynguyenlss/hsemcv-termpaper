@@ -11,5 +11,3 @@ pretrained
 face-emotion-recognition
 __pycache__
 EdgeNeXt
-*.pth
-*.pt
