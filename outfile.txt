@@ -1,0 +1,1 @@
+os16_bs16/hsemotion_cuda_opset:16_batchsize:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],16,0.3605,2.7739

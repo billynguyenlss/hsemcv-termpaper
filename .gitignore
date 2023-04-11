@@ -1,0 +1,15 @@
+checkpoints
+face-emotion-recognition/mobile_app
+face-emotion-recognition/models/pretrained_faces
+face-emotion-recognition/src
+face-emotion-recognition/test_images
+face-emotion-recognition/.gitignore
+face-emotion-recognition/LICENSE
+face-emotion-recognition/README.md
+ECCV2022-ABAW-competition
+pretrained
+face-emotion-recognition
+__pycache__
+EdgeNeXt
+*.pth
+*.pt

@@ -1,0 +1,78 @@
+model,runtime,providers,batch_size,et,fps
+hsemotion_dangus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0259,38.5946
+hsemotion_dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0271,36.8802
+hsemotion_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0211,47.3314
+gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0137,72.7731
+hsemotion_dangus_v2_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0402,24.8746
+dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0182,54.9081
+hsemotion_gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0199,50.3629
+hsemotion_dangus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.024,41.6623
+hsemotion_dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0242,41.3157
+hsemotion_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0202,49.5835
+gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0139,71.7929
+hsemotion_dangus_v2_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.039,25.669
+hsemotion_gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0199,50.2503
+dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0179,55.9663
+hsemotion_dangus_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.0244,41.064
+hsemotion_dan_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.024,41.6405
+hsemotion_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.0198,50.4541
+gus_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.0138,72.22
+hsemotion_dangus_v2_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.0612,16.3345
+hsemotion_gus_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.0206,48.5308
+dan_cuda:0_opset:16.onnx,onnx,['CUDAExecutionProvider'],1,0.019,52.5768
+mobilenetv3s.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0076,132.0997
+mobileViTs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.03,33.359
+edgenext_xs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0138,72.4585
+mobilenetv3s.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0076,131.4656
+mobileViTs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0273,36.6021
+edgenext_xs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0129,77.6116
+hsemotion_dangus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0243,41.0774
+hsemotion_dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0244,41.0458
+hsemotion_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0203,49.1417
+gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.014,71.2611
+hsemotion_dangus_v2_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0399,25.0898
+hsemotion_gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0201,49.8134
+dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0182,54.9381
+mobilenetv3s.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0075,133.5271
+mobileViTs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0273,36.6656
+edgenext_xs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0122,82.1938
+hsemotion_dangus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0242,41.3905
+hsemotion_dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0245,40.8532
+hsemotion_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0199,50.2223
+gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0139,71.8279
+hsemotion_dangus_v2_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0428,23.3685
+hsemotion_gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0228,43.8591
+dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0191,52.2402
+gus_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0152,65.8284
+hsemotion_dangus_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.021,47.6687
+hsemotion_gus_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0163,61.2461
+hsemotion_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0166,60.1647
+hsemotion_dan_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.021,47.6868
+hsemotion_dangus_v2_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0213,46.8916
+dan_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0197,50.7221
+mobilenetv3s.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0085,117.2188
+mobileViTs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0296,33.8085
+edgenext_xs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0127,78.6543
+mobilenetv3s_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0082,122.5885
+mobileViTs_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0325,30.7779
+edgenext_xs_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0165,60.6775
+hsemotion_dangus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.025,39.9985
+hsemotion_dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0243,41.1313
+hsemotion_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0197,50.786
+gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0159,62.9764
+hsemotion_dangus_v2_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.041,24.4108
+hsemotion_gus_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0205,48.774
+dan_cuda:0_opset:16.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0187,53.5142
+gus_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0151,66.3619
+hsemotion_dangus_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0208,48.0075
+hsemotion_gus_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0161,62.2069
+hsemotion_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0167,59.8903
+hsemotion_dan_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0213,46.9637
+hsemotion_dangus_v2_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0215,46.5912
+dan_cuda:0_opset:16_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0181,55.1017
+mobilenetv3s.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0076,131.466
+mobileViTs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0281,35.6107
+edgenext_xs.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0123,81.6318
+mobilenetv3s_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0075,132.5812
+mobileViTs_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0288,34.6769
+edgenext_xs_simpified.onnx,onnx,['TensorrtExecutionProvider', 'CUDAExecutionProvider'],1,0.0134,74.9008
