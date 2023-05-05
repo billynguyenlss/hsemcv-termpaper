@@ -42,6 +42,6 @@ print("RAM used after performing inference (GB) - total: {:.2f}, increased: {:.2
 
 print('gus: avg time: {:.3f} sec, fps: {:.2f}\n'.format(et/100, 100/et))
 
-# from to_pytorch import quantized_model_for_mobile, quantize_model_int8
-# quantized_model_for_mobile(model, 'gus', 'pretrained/pt-quantized-for-mobile')
-# quantize_model_int8(model, 'gus', 'pretrained/pt-quantized')
+from to_pytorch import quantized_model_for_mobile, quantize_model_int8
+quantized_model_for_mobile(model, 'gus', 'pretrained/pt-quantized-for-mobile')
+quantize_model_int8(model, 'gus', 'pretrained/pt-quantized')

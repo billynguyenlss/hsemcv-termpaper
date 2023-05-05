@@ -7,7 +7,7 @@ face-emotion-recognition/.gitignore
 face-emotion-recognition/LICENSE
 face-emotion-recognition/README.md
 ECCV2022-ABAW-competition
-pretrained
+pretrained/*
 face-emotion-recognition
 __pycache__
 EdgeNeXt
